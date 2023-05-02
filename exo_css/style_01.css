@@ -6,9 +6,10 @@ a{
 }
 #contenu{
     background-color: lightgray;
-    text-align:right;
+    
 }
 
 .paragraphe{
     font-size:2em;
+    text-align:right;
 }
