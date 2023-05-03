@@ -1,0 +1,31 @@
+h1{
+    color:red;
+    text-align:center;
+    font-size:5em;
+}
+h3{
+    color:blue;
+    font-size:3em;
+}
+.grey{
+    background-color: grey;
+} 
+
+strong{
+    font-weight: normal;
+    color:yellowgreen;
+}
+em{
+    text-decoration: underline;
+    font-style: normal;
+    color:orange;
+    font-size: 30px;
+}
+.h3class{
+    color:green;
+    text-align:right;
+    text-decoration:underline;
+}
+.pinky{
+    background-color:pink;
+} 

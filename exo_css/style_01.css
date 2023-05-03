@@ -9,7 +9,7 @@ a{
     
 }
 
-.paragraphe{
+div:last-of-type{
     font-size:2em;
     text-align:right;
 }
