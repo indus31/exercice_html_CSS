@@ -1,0 +1,26 @@
+h1{
+    text-shadow:violet 10px -10px 4px;
+}
+p{
+    box-shadow:red -2px -1px 10px 10px;
+    
+    
+
+    
+    
+    
+}
+/* p:nth-of-type(2){
+    box-shadow:green 10px 10px 10px 10px;
+    
+} */
+p:nth-child(3){
+    box-shadow: -10px 10px 10px  green;
+    
+}
+div{
+    background-color:violet;
+    height:500px;
+    width:auto;
+
+}
