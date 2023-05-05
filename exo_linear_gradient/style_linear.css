@@ -1,0 +1,29 @@
+
+div,p{
+    height:200px;
+    width:200px;
+    margin:20px;
+    
+    
+    border:2px solid;
+}
+div:first-of-type{
+
+    background: linear-gradient(to right top,red,green,blue);
+}
+div:nth-child(2){
+    background: linear-gradient(-70deg,yellow ,violet 25%);
+}
+div:nth-child(4){
+    background:radial-gradient(lightblue,pink);
+}
+div:nth-child(5){
+    background:repeating-radial-gradient(10px,white,black);
+}
+div:hover:nth-child(5){
+    background:repeating-radial-gradient(10px,black,white);
+}
+p{
+    overflow:auto;
+
+}
