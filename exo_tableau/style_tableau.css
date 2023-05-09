@@ -1,8 +1,28 @@
-table, caption,tr,th,td  {
+tr,th,td{
     border:2px solid black;
     border-collapse: collapse;
 }
 table{
     margin:auto;
+    border: 5px double blueviolet;
+    border-collapse:collapse;
+   
 }
-
+caption{
+    color:blueviolet;
+    font-weight: bold;
+}
+th{
+    background-color: lightblue;
+}
+table:nth-of-type(2){
+    border:solid 2px black;
+    
+}
+table:nth-of-type(2) th{
+    background-color: white;
+}
+table:nth-of-type(2) caption{
+    font-weight: normal;
+    color:black;
+}
