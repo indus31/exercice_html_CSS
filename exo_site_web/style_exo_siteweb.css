@@ -1,19 +1,97 @@
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
 body{
     background:radial-gradient( #CCDAE0, #EDF2F4 )
 }
 header{
     display:flex;
     justify-content: center;
+    align-items:center;
+    flex-direction:column;
     
 }
 header div{
-    width:200px;
-    height:100px;
-    background-size:cover;
+    width:800px;
+    height:200px;
+    /*background-image: url(/git_ressource/exo_site_web/verdure.jfif);*/
+  
+    
+
 }
+header div img{
+    max-width: 800px;
+    max-height: 200px;
+    width:100%;
+    height:100%;
+}
+
 h1{
     color:#EF233C;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 80px;
     font-weight: bold;
+}
+h3{
+    color:#2B2D42;
+    font-size:50px;
+    border-bottom: 3px dashed black;
+    display:inline;
+}
+article{
+    border:solid black 1px;
+}
+article img{
+    height:100px;
+    width:200px;
+    display:flex;
+    margin:auto;
+    border:solid #8D99AE  2px;
+}
+footer{
+    text-align: right;
+}     
+ul{
+    list-style-type:none;
+
+}
+a{
+    color:#D90429 ;
+}
+a:visited{
+    color:grey;
+}
+a:hover{
+    color:#2B2D42;
+}
+span{
+    color:red;
+}
+
+#slider{
+    width:80%;
+    max-width: 1000px;
+    overflow:hidden;
+}
+#slider figure{
+    position:relative;
+    width: 500%;
+    font-size:0;
+    margin:0;
+    padding:0;
+    animation-name: "slidy";
+    animation:30s "slidy" infinite;
+
+}
+#slider figure img{
+    width:20%;
+    height:auto;
 }
